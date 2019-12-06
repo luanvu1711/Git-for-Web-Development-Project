@@ -1,0 +1,120 @@
+https://codepen.io/anhdeptrai/pen/povjwZX
+
+
+1. What is Semantic HTML? 
+Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look. 
+2. What is HTML used for? 
+HTML is a mark up language is create website.
+3. What is an attribute and where do we put it? 
+HTML attributes are special words used inside the opening tag to control the element's behaviour. we can put it right after HTML elements.
+4. What is the h1 tag used for? How many times should I use it on a page?
+H1 is used for header elements and we can use as many times as we like to.
+5. Name two tags that have required attributes
+div and h1.
+6. What do we put in the head of our HTML document? 
+<header> tag.
+7. What is an id? 
+The id attribute specifies a unique id for an HTML element.
+8. What elements can I add an id to? 
+any elements
+9. How many times can I use the same id on a page? 
+one time
+10. What is a class? 
+The class is an attribute which specifies one or more class names for an HTML element.
+11. What elements can I add a class to? 
+any elements
+12. How many times can I use the same class on a page? 
+as many as you would like to.
+13. How do I get my link to open in a new tab?
+ <a href="#" target="_blank">
+14. What is the alt attribute used for? 
+to put more information on the element in case the element doesn't load up on the page.
+15. How do I reference an id?
+by using #
+16. What is the difference between a section and a div?
+The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+The <div> tag defines a division or a section in an HTML document.
+7. What is CSS used for? 
+for styling HTML
+18. How to we select an element? Example - every h2 on the page
+by using h2{
+}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+ex:
+<div class="container">
+</div>
+<div class="container">
+</div>
+
+
+<div id="content'>
+</div>
+20. How do we select classes in CSS?
+by using ".".ex: .class{
+}
+21. How do we select a p element with a single class of “human””?
+.human p{
+}
+22. What is a parent child selector? When would this be useful? 
+when we have an a tag inside a div, we can use parent child selector.
+div > a
+it's useful when we have multiple child elements in one div element.
+23. How do you select all links within a div with the class of sidebar?
+.sidebar a{
+}
+24. What is a pseudo selector?
+A pseudo-class is used to define a special state of an element.
+25. What do we use the change the spacing between lines?
+margin
+26. What do we use to change the spacing between letters?
+letter-spaccing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: capitlize, lowercase, uppercase
+    28. How do I add a 1px border around my div that is dotted and black?
+div{
+border: dotted 1px black;
+}
+ 29. How do I select everything on the page?
+ by using *{
+
+}
+30. How do I write a comment in CSS?
+by using /* and end with */
+31. How do I find out what file I am in, when I am using the command line? 
+pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+$rm
+because the delete is permanent and does not store in the recycle bin
+34. Why should I use version control? 
+to have full control and timeline of the project. helps identify issues and bugs.
+35. How often should I commit to github?
+twice a day(before lunch and before the end ofthe day)
+    36. What is the command we would use to push our repo up to github? 
+git push origin master
+    37. Walk me through Lambda's git flow. 
+Student will create OWN version of Repo (Fork)
+Student will add TL as a collaborator
+Student then will Clone Repo
+Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+Student will then submit their PR into the new branch.
+Student will use their own student fork as the base (compare across forks).
+Student will add their TL as a reviewer on the PR
+TL then will count the HW as done by merging the HW back into master “STUDENT FORK"
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+inline elements are displayed in a horizontal line.
+block elements are displayed in a vertical line.
+    2. What happens when an element is positioned absolutely?
+the element is positioned absolutely to its first positioned parent(preferred parent's position is relative).
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+block: div, p, ul
+inline: a, span
+inline-block: img
+    5. In your own words, explain the box model. What is the fix for the box model? 
+box model is the design and layout of HTMl elements.
